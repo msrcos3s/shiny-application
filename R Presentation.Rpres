@@ -1,0 +1,59 @@
+Real-time ICU beds occupancy rate in the State of Sao Paulo, Brazil
+========================================================
+author: Marcos Medeiros
+date: 01/31/2022
+autosize: true
+
+Introduction
+========================================================
+
+This ShinyApp presentation is part of the course Developing Data Products of the Coursera Data Science Specialization offered by Johns Hopkins University.
+
+Instructions:
+
+-  Write a shiny application with associated supporting documentation. The documentation should be thought of as whatever a user will need to get started using your application.
+- Deploy the application on Rstudio's shiny server
+- Share the application link by pasting it into the provided text box
+- Share your server.R and ui.R code on github
+
+
+ICU Beds Occupancy Rate App
+========================================================
+
+This application automatically connects to the SEADE foundation public database and shows the evolution of the occupancy rate of ICU beds in real time.
+
+<https://github.com/seade-R/dados-covid-sp/blob/master/data/plano_sp_leitos_internacoes.csv> 
+
+This prototype is a demonstration of what can be done with all public epidemiological databases in Brazil.
+
+
+
+How to use the application 
+========================================================
+
+
+
+The application is running on 
+
+<https://msrcos3s.shinyapps.io/ICU_SP/>
+
+
+1. As the database is large, please, wait a few seconds for the graphing function to load.
+2. With the application running, select the region of interest to view the evolution of ICU occupancy over time.
+3. The graph is interactive and automatically adjusts to the size of your screen, so you can zoom in to see more details.
+
+
+Documentation 
+========================================================
+
+ui.R and server.R codes are in my GitHub repository, as well a copy of this presentation.  
+
+<https://github.com/msrcos3s/shiny-application> 
+
+This presentation is hosted on
+
+<https://rpubs.com/msrcos3s/shiny-app> 
+
+If you have any suggestions, please fell free to commit in GitHub.
+
+Thank you! 
